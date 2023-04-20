@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 21px 0px;
+}
+.nav li .co-white{
+    color: white;
+    text-decoration: none;
+}
