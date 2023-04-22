@@ -5,6 +5,7 @@ import About from './About'
 import Contect from './Contect'
 import Login from './components/Login'
 import Signup from './components/Signup'
+import Error from './components/Error'
 
 function Allroute() {
   return (
@@ -16,6 +17,7 @@ function Allroute() {
         <Route path='/login' element={<Login/>}/>
         {/* <Route path='/signup' element={<Sign/>}/> */}
         <Route path='/signup' element={<Signup/>}/>
+        <Route path='*' element={<Error/>}/>
       </Routes>
     </div>
   )
